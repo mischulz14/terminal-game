@@ -15,7 +15,6 @@ def make_the_loop_go_whooop(stats):
     # initial choice
     user_choice = input("\nEnter the pokemon you vibe with: ").strip().lower()
 
-    # loop until valid choice
     while True:
    # the next function returns the first item in the list that matches the condition (learned that today)
       matching_pokemon = next((pokemon for pokemon in random_pokemon if pokemon['name'].lower() == user_choice), None)
